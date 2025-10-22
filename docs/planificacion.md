@@ -59,6 +59,9 @@ Su relevancia radica en:
 | **3** | 4–5 | Optimización y validación | CNN optimizada (F1 ≥ 0.82), métricas y prototipo funcional | Overfitting | Regularización y validación cruzada |
 | **4** | 6 | Cierre y documentación | Pruebas integrales, presentación final | Fallas finales | Pruebas incrementales desde semana 5 |
 
+<img width="2375" height="1167" alt="Cronograma_Gantt_AVSI" src="https://github.com/user-attachments/assets/554bf4ee-a4e6-4916-84d9-5516fa9c18ce" />
+
+
 ---
 
 ## ⚙️ 6. Recursos Necesarios
