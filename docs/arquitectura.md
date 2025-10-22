@@ -61,6 +61,7 @@ El modelo final se integra en una aplicación **Streamlit**, que permite:
 
 El flujo de información del sistema puede resumirse en el siguiente pipeline:
 
+<img width="1163" height="614" alt="Accidentalidad - visual selection" src="https://github.com/user-attachments/assets/6f75a9b4-c221-417e-9883-18d59dc15e44" />
 
 ---
 
