@@ -14,7 +14,7 @@ La solución fue implementada utilizando **Python**, **PyTorch** y **Streamlit**
 3. Modelado mediante CNN con *transfer learning*  
 4. Optimización de hiperparámetros  
 5. Evaluación de métricas  
-6. Despliegue en una interfaz interactiva.
+6. Despliegue en una interfaz interactiva
 
 ---
 
