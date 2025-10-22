@@ -76,42 +76,6 @@ Cada notebook cumple una función dentro del **ciclo de vida del modelo** y se c
 
 ---
 
-## 🔹 3. Flujo Técnico Detallado
-
-### 🧩 **01_exploracion_AVSI.ipynb**
-- Realiza el **análisis exploratorio (EDA)** sobre los datasets de 100 y 1 000 imágenes.  
-- Extrae **resoluciones**, **niveles de brillo y contraste**, **duplicados** mediante *perceptual hashing* y distribuciones de clase.  
-- Permite visualizar la calidad del dataset y definir estrategias de limpieza.
-
-### ⚙️ **02_preprocesamiento_AVSI.ipynb**
-- Implementa la limpieza y normalización de imágenes (224×224 px, RGB).  
-- Aplica **técnicas de data augmentation**: rotaciones, flips y jitter.  
-- Divide los datos en **train/val/test** de manera estratificada.  
-- Exporta la estructura a `/data/processed/` y un archivo `labels.csv` con metadatos.
-
-### 🧠 **03_modelado_AVSI.ipynb**
-- Entrena una **ResNet-18** preentrenada (*transfer learning*).  
-- Congela las capas del backbone, reemplaza la capa final y optimiza con **Adam**.  
-- Implementa *early stopping* y guarda el mejor modelo (`best_model.pt`).  
-- Genera curvas de **pérdida** y **exactitud**.
-
-### 🔬 **04_optimizacion_AVSI.ipynb**
-- Realiza una **búsqueda en malla (Grid Search)** variando:
-  - *Learning rate*
-  - *Weight decay*
-  - *Batch size*
-  - *Freeze_backbone*
-- Calcula sensibilidad y promedio de validación (`val_acc`) para cada hiperparámetro.  
-- Almacena la mejor configuración y métricas comparativas.
-
-### 📈 **05_evaluacion_AVSI.ipynb**
-- Consolida resultados del entrenamiento y optimización.  
-- Calcula métricas finales: **accuracy, matriz de confusión, clasificación por clase.**  
-- Genera un **reporte ejecutivo (final_report.txt)** con KPIs clave.  
-- Resume mejoras de rendimiento tras la ampliación del dataset.
-
----
-
 ## 🔹 4. Componentes Técnicos Principales
 
 | Módulo | Descripción |
