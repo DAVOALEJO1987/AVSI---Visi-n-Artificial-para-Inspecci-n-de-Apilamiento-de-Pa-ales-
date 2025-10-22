@@ -1,12 +1,6 @@
 # 🧩 SRC_README.md — Proyecto AVSI
 **Artificial Vision Stacking Inspection (AVSI)**  
 *Sistema de visión artificial basado en Deep Learning para la inspección automática del apilamiento de pañales.*
-
-**Autor:** Alejandro Narváez  
-**Programa:** Maestría en Inteligencia Artificial – UEES  
-**Empresa:** EVA ENGINEERING S.A.  
-**Versión:** 1.0 — Octubre 2025  
-
 ---
 
 ## 📁 1. Propósito del Módulo
@@ -19,4 +13,6 @@ El módulo incluye todos los scripts necesarios para:
 - Definir y entrenar el modelo CNN (ResNet-18).  
 - Evaluar métricas de rendimiento.  
 - Exportar resultados y reportes reproducibles.
+
+<img width="499" height="181" alt="image" src="https://github.com/user-attachments/assets/144aafef-85b0-48ae-88d3-53ceb713aff0" />
 
