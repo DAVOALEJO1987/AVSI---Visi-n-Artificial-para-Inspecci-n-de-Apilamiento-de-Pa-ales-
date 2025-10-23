@@ -1,0 +1,29 @@
+# === REQUIREMENTS.txt ===
+# Proyecto: AVSI - Artificial Vision Stacking Inspection
+# Aplicación web en Streamlit para clasificación de apilamiento
+# Autor: David Alejandro Narváez Mejía / Francisco Javier Estupiñán Andrade
+# Fecha: Octubre 2025
+
+# --- INTERFAZ Y VISUALIZACIÓN ---
+streamlit>=1.33.0
+plotly>=5.23.0
+pyngrok>=7.1.0
+
+# --- PROCESAMIENTO DE IMÁGENES ---
+pillow>=10.4.0
+opencv-python>=4.10.0
+
+# --- INTELIGENCIA ARTIFICIAL Y MODELADO ---
+torch>=2.3.1
+torchvision>=0.18.1
+numpy>=1.26.4
+pandas>=2.2.2
+scikit-learn>=1.5.2
+
+# --- UTILIDADES Y GENERACIÓN DE REPORTES ---
+fpdf2>=2.7.9
+pytz>=2024.1
+
+# --- OPCIONAL (para Colab o despliegue local) ---
+matplotlib>=3.9.2
+tqdm>=4.66.4
