@@ -11,6 +11,7 @@ El proyecto integra un pipeline completo de datos, entrenamiento y evaluación c
 
 ##  Descripción grafica 
 <img width="1536" height="1024" alt="ChatGPT Image Oct 16, 2025, 06_36_02 PM" src="https://github.com/user-attachments/assets/ae897a3e-3e11-4417-abfd-d7236dca71e2" />
+
 **Fuente:** AVSI / Generado por ChatGPT
 
 
@@ -89,9 +90,11 @@ El sistema emplea **dos datasets propios** desarrollados por **EVA ENGINEERING S
 
 Arquitectura Vision Artificial  
 <img width="1183" height="407" alt="ARQUITECTURA VISION" src="https://github.com/user-attachments/assets/78f47308-047e-4eb1-bfd8-fb4b39495f5b" />
+
 **Fuente:** Proceso de proyectos Visión por Computador / FUENTE: Machine-Vision-Systems-Design A3 VISION
 
 <img width="1414" height="854" alt="image" src="https://github.com/user-attachments/assets/ad4e652e-f2bd-4bf6-bdcd-1490adcbf762" />
+
 **Fuente:** Proceso de proyectos Visión por Computador / FUENTE: Machine-Vision-Systems-Design A3 VISION
 
 El siguiente flujo describe paso a paso el proceso típico para diseñar e implementar un sistema de **visión por computador (Machine Vision, MV)**.  
@@ -238,6 +241,7 @@ Se seleccionó una **ResNet-18** con *transfer learning* desde **ImageNet**, por
 Se reemplazó la capa final (`fc`) por una densa binaria para clasificación y se aplicó *dropout (0.3)* para regularización.
 
 <img width="975" height="373" alt="image" src="https://github.com/user-attachments/assets/62d7545b-96d5-48e5-9c09-00436556dec0" />
+
 **Fuente:** [CS231n — Convolutional Neural Networks](https://cs231n.github.io/convolutional-networks/)
 
 ### Preprocesamiento aplicado
@@ -270,6 +274,8 @@ La expansión del dataset y la optimización de hiperparámetros incrementaron l
 
 ## RESULTADOS CON DATASET 1 - 100 imagenes 
 <img width="675" height="746" alt="image" src="https://github.com/user-attachments/assets/459e6f7c-1206-4c6f-a187-bbca281666a6" />
+
+
 
 ## RESULTADOS CON DATASET 2 - 1000 imagenes
 <img width="659" height="752" alt="image" src="https://github.com/user-attachments/assets/2c8b1897-42e5-4c0f-8c1d-f1b6290ec4fc" />
