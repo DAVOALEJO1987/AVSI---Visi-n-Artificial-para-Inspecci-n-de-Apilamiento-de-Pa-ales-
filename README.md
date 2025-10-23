@@ -11,7 +11,7 @@ El proyecto integra un pipeline completo de datos, entrenamiento y evaluación c
 
 ##  Descripción grafica 
 <img width="1536" height="1024" alt="ChatGPT Image Oct 16, 2025, 06_36_02 PM" src="https://github.com/user-attachments/assets/ae897a3e-3e11-4417-abfd-d7236dca71e2" />
-**Fuente:** [AVSI / Generado por ChatGPT]
+**Fuente:** AVSI / Generado por ChatGPT
 
 
 **Profesor:** PhD. Gladys Villegas  
@@ -52,6 +52,7 @@ Finalmente, se evidencia un **vacío de investigación y aplicación** en el con
 Ingenieros de control de calidad, técnicos de automatización y operadores de líneas industriales dentro del sector de productos higiénicos, alimentos y empaques automáticos.
 
 <img width="974" height="454" alt="image" src="https://github.com/user-attachments/assets/cd1afd63-5ce9-4a90-8c6d-29b7fb341f5e" />
+
 **Fuente:** Visión Artificial Apilamiento / FUENTE: EVA ENGINEERING 
 
 ---
@@ -67,6 +68,7 @@ El sistema emplea **dos datasets propios** desarrollados por **EVA ENGINEERING S
 
 <img width="839" height="614" alt="image" src="https://github.com/user-attachments/assets/d93db7fb-8a93-47b0-84dc-e30338161084" />
 
+**Fuente:** Pilas Agrupadas / FUENTE: VC_ResNet_18_Rev_0.ipynb
 
 ### Fuente y licencia de los datos
 - **Procedencia:** EVA ENGINEERING S.A. (código IN34-EVA1200 REV 01).  
@@ -266,11 +268,10 @@ Se reemplazó la capa final (`fc`) por una densa binaria para clasificación y s
 **Comparación:**  
 La expansión del dataset y la optimización de hiperparámetros incrementaron la precisión en **+1.2 %** y la estabilidad del modelo, manteniendo tiempo real (>30 FPS).
 
-**Gráficos:**
-**DATASET 1**
+## RESULTADOS CON DATASET 1 - 100 imagenes 
 <img width="675" height="746" alt="image" src="https://github.com/user-attachments/assets/459e6f7c-1206-4c6f-a187-bbca281666a6" />
 
-**DATASET 2**
+## RESULTADOS CON DATASET 2 - 1000 imagenes
 <img width="659" height="752" alt="image" src="https://github.com/user-attachments/assets/2c8b1897-42e5-4c0f-8c1d-f1b6290ec4fc" />
 
 ---
