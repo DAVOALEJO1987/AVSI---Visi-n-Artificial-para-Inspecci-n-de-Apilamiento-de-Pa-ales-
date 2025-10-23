@@ -84,6 +84,6 @@ torch.save({
     'classes': ['good_stack', 'bad_stack']
 }, 'models/cnn_best.pt')
 
-
-
+## 🧩 LINK 50 MGAS
+https://drive.google.com/file/d/1nDsgn6HSShq9KLmjwJSo__HI0x3v0XV6/view?usp=sharing
 
