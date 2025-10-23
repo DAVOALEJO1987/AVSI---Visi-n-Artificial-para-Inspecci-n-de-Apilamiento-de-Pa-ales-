@@ -36,14 +36,23 @@ El proyecto integra un pipeline completo de datos, entrenamiento y evaluación c
 
 ## 🧩 Descripción del Problema
 
-### ¿Qué problema resuelve el proyecto?
-El sistema AVSI automatiza el proceso de **inspección del apilamiento de pañales**, que normalmente se realiza de forma manual. Este proceso es propenso a errores humanos, inconsistencias visuales y riesgos ergonómicos.  
+El problema central se centra en la **verificación visual del apilamiento de pañales antes del empaque**, una tarea que actualmente depende de la observación humana y expone a los operarios a **riesgos ergonómicos y asépticos**, además de requerir **decisiones en tiempo real** dentro de entornos de alta producción.  
 
-### ¿Por qué es importante?
-En entornos industriales de alta velocidad, incluso pequeñas fallas de apilamiento pueden generar pérdidas económicas significativas, rechazos de producto y fallas en el empaque final. AVSI permite detectar estos defectos en tiempo real con alta precisión, reduciendo costos y mejorando la trazabilidad de calidad.  
+En este contexto, la tendencia industrial apunta hacia soluciones basadas en **Deep Learning**, donde las **redes neuronales convolucionales (CNN)** y los modelos de detección modernos —como **YOLO** o **EfficientDet**— han demostrado superar ampliamente a la visión clásica en términos de **precisión, robustez y velocidad**, consolidándose como la alternativa más competitiva para líneas automatizadas.
+
+Sin embargo, la adopción práctica enfrenta desafíos asociados a la **escasez de datos**, la **sensibilidad a variaciones de dominio** (cambios en iluminación, posición o textura) y la **latencia de procesamiento**. Frente a ello, la literatura especializada recomienda:
+- **Aumento de datos (Data Augmentation)** para mejorar la generalización.  
+- **Anotación activa (Active Learning)** que optimiza el etiquetado en datasets reducidos.  
+- **Validación mediante métricas estandarizadas** como *mAP*, *IoU* y *F1-score*.  
+- **Implementación en entornos de Edge Computing**, donde el tiempo de respuesta es crítico.
+
+Finalmente, se evidencia un **vacío de investigación y aplicación** en el control de calidad de **productos higiénicos**, como los pañales, donde la **falta de conjuntos de datos públicos** y la necesidad de **protocolos de validación en entornos industriales controlados** —especialmente con datasets limitados, como el de 1 000 imágenes desarrollado en este proyecto— representan una **oportunidad estratégica para la innovación académica e industrial** en visión artificial aplicada a manufactura inteligente.
 
 ### ¿Quiénes son los usuarios objetivo?
 Ingenieros de control de calidad, técnicos de automatización y operadores de líneas industriales dentro del sector de productos higiénicos, alimentos y empaques automáticos.
+
+<img width="974" height="454" alt="image" src="https://github.com/user-attachments/assets/cd1afd63-5ce9-4a90-8c6d-29b7fb341f5e" />
+**Fuente:** Visión Artificial Apilamiento / FUENTE: EVA ENGINEERING 
 
 ---
 
@@ -74,11 +83,11 @@ El sistema emplea **dos datasets propios** desarrollados por **EVA ENGINEERING S
 
 ## 🧠 Metodología
 
-##  Arquitectura Vision Artificial  
+## 🧭 Flujo de Proceso para el Diseño e Implementación de un Proyecto de Visión por Computador
+
+Arquitectura Vision Artificial  
 <img width="1183" height="407" alt="ARQUITECTURA VISION" src="https://github.com/user-attachments/assets/78f47308-047e-4eb1-bfd8-fb4b39495f5b" />
 **Fuente:** Proceso de proyectos Visión por Computador / FUENTE: Machine-Vision-Systems-Design A3 VISION
-
-## 🧭 Flujo de Proceso para el Diseño e Implementación de un Proyecto de Visión por Computador
 
 <img width="1414" height="854" alt="image" src="https://github.com/user-attachments/assets/ad4e652e-f2bd-4bf6-bdcd-1490adcbf762" />
 **Fuente:** Proceso de proyectos Visión por Computador / FUENTE: Machine-Vision-Systems-Design A3 VISION
