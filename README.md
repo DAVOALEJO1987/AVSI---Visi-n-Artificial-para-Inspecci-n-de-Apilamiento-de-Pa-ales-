@@ -281,7 +281,12 @@ La expansión del dataset y la optimización de hiperparámetros incrementaron l
 <img width="659" height="752" alt="image" src="https://github.com/user-attachments/assets/2c8b1897-42e5-4c0f-8c1d-f1b6290ec4fc" />
 
 ---
+## ⚖️  Consideraciones Eticas 
 
+Este documento presenta un análisis exhaustivo de las **consideraciones éticas** inherentes al diseño, despliegue y operación del sistema **AVSI (Artificial Vision Stacking Inspection)**.  
+El análisis se alinea con los principios de **IA Responsable (Responsible AI)**, evaluando los riesgos y proponiendo estrategias de mitigación desde una perspectiva sociotécnica.
+
+---
 ## ⚙️ Instalación y Uso
 
 ### Requisitos del sistema
