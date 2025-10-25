@@ -287,6 +287,46 @@ Este documento presenta un análisis exhaustivo de las **consideraciones éticas
 El análisis se alinea con los principios de **IA Responsable (Responsible AI)**, evaluando los riesgos y proponiendo estrategias de mitigación desde una perspectiva sociotécnica.
 
 ---
+
+## 1️⃣ Análisis de Sesgos y Generalización
+
+En el contexto de AVSI, el análisis de sesgos se enfoca en los **sesgos técnicos y de representación**, que afectan la robustez y fiabilidad del modelo.
+
+### 🔹 Sesgo de Representación
+El dataset base fue capturado bajo un conjunto limitado de condiciones (iluminación, planta, configuración de cámara).  
+Esto genera un **sesgo de muestreo** que limita la capacidad de **generalización** del modelo ante entornos distintos, fenómeno conocido como *domain shift*.
+
+### 🔹 Sesgo de Medición
+Diferencias sistemáticas entre los datos de entrenamiento y el entorno real (calibración de cámara, compresión de video, desenfoque por movimiento) introducen un **sesgo de medición** que puede degradar el rendimiento predictivo.
+
+### 🔹 Impacto Predictivo
+Estos sesgos se manifiestan como un aumento de **falsos positivos (FPR)** o **falsos negativos (FNR)**.  
+Por ejemplo, un modelo entrenado solo con buena iluminación podría fallar durante turnos nocturnos, reduciendo su confiabilidad.
+
+### 🔹 Grupos Afectados
+- Exceso de falsos positivos → fatiga por alertas y sobrecarga cognitiva en operarios.  
+- Exceso de falsos negativos → riesgos para el consumidor y evaluaciones injustas del personal de calidad.
+
+---
+
+## 2️⃣ Equidad y Fairness Operativo
+
+Dado que AVSI inspecciona objetos, la **equidad** se redefine como **consistencia operativa del rendimiento**.
+
+### 🔹 Definición de Equidad Operativa
+Un sistema equitativo mantiene métricas estables (precisión, F1-score) sin importar turno, línea, lote o supervisor.
+
+### 🔹 Métricas de Evaluación
+Se auditan métricas de error (FPR, FNR) de forma desagregada por variables operativas.  
+Diferencias notables entre turnos o líneas indican inequidad operativa.
+
+### 🔹 Estrategias de Mitigación
+- **Data Augmentation:** simular variabilidad de dominio (brillo, contraste, ruido).  
+- **Muestreo Estratificado:** asegurar representación de condiciones minoritarias o complejas.
+
+---
+
+---
 ## ⚙️ Instalación y Uso
 
 ### Requisitos del sistema
