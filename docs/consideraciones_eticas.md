@@ -143,6 +143,10 @@ La supervisión humana cualificada sigue siendo indispensable para garantizar la
 4. **XAI – Explainable Artificial Intelligence** – DARPA Initiative (2018).  
 5. **Ethical AI in Industrial Automation** – OECD AI Principles (2021).
 
+<img width="930" height="1395" alt="image" src="https://github.com/user-attachments/assets/025e2581-8230-4e3f-9466-d406a3e4ac2d" />
+
+**Fuente:** Generado por ChatGPT
+
 ---
 
 📄 **Documento:** `consideraciones_eticas.md`  
