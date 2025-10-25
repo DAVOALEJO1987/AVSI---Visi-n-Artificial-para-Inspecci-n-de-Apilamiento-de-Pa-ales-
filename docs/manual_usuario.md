@@ -9,7 +9,8 @@ El **Sistema AVSI (Artificial Vision for Stacking Inspection)** es una aplicaci�
 Su propósito es **detectar automáticamente errores de apilamiento** en procesos industriales de empaque, optimizando el control de calidad y reduciendo la intervención humana.
 
 <img width="1620" height="1080" alt="image" src="https://github.com/user-attachments/assets/31898d0d-9ddd-438f-a6a5-2b51c48ab2db" />
-**fuente** 
+
+**Fuente:** AVSI / https://directorial-al-euchromatic.ngrok-free.dev/
 
 ---
 
@@ -33,6 +34,10 @@ La interfaz se organiza en **dos secciones principales**:
 2. **Predicción del Modelo**
 
 Además, presenta una **barra superior de navegación** con pestañas informativas.
+
+<img width="1257" height="718" alt="image" src="https://github.com/user-attachments/assets/b2d4d2a5-f711-45b9-a195-2558e99ba6e3" />
+
+**Fuente:** Interfza grafica AVSI / https://directorial-al-euchromatic.ngrok-free.dev/
 
 ---
 
@@ -96,6 +101,10 @@ El sistema presenta el diagnóstico junto al porcentaje de confianza del modelo.
 📊 **Ejemplo mostrado:**
 > Predicción: **MAL APILADO**  
 > Nivel de Confianza: **78.79 %**
+
+<img width="1157" height="810" alt="image" src="https://github.com/user-attachments/assets/c7c9565a-084a-441c-9120-78d6cf8c2cc7" />
+
+**Fuente:** AVSI / https://directorial-al-euchromatic.ngrok-free.dev/
 
 ---
 
