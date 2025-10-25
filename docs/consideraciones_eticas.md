@@ -146,12 +146,3 @@ La supervisión humana cualificada sigue siendo indispensable para garantizar la
 <img width="930" height="1395" alt="image" src="https://github.com/user-attachments/assets/025e2581-8230-4e3f-9466-d406a3e4ac2d" />
 
 **Fuente:** Generado por ChatGPT
-
----
-
-📄 **Documento:** `consideraciones_eticas.md`  
-📆 **Fecha:** Octubre 2025  
-🏫 **Institución:** Universidad de Especialidades Espíritu Santo (UEES)  
-🏢 **Empresa colaboradora:** EVA ENGINEERING S.A.  
-✍️ **Autores:** Francisco Javier Estupiñán Andrade / David Alejandro Narváez Mejía  
-👩‍🏫 **Supervisión:** PhD. Gladys Villegas
