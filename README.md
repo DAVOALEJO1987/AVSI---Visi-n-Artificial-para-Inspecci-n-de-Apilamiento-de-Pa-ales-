@@ -325,15 +325,16 @@ Diferencias notables entre turnos o líneas indican inequidad operativa.
 - **Muestreo Estratificado:** asegurar representación de condiciones minoritarias o complejas.
 
 ---
+## ⚙️ ### Requisitos del sistema 
 
----
-## ⚙️ Instalación y Uso
-
-### Requisitos del sistema
-- **Python 3.10+**
-- GPU compatible con CUDA 11+ (opcional)
-- 8 GB de RAM mínimo
-- SO: Windows 11 / Ubuntu 22.04
+| Requisito | Descripción |
+|------------|-------------|
+| **Sistema Operativo** | Windows 10/11, macOS o Linux |
+| **Navegador Compatible** | Google Chrome, Edge o Firefox |
+| **Conectividad** | Internet estable |
+| **Formatos admitidos** | `.jpg` o `.png` |
+| **Tamaño máximo de archivo** | 200 MB |
+| **Dependencias principales** | `streamlit`, `opencv-python`, `tensorflow`, `numpy`, `plotly` |
 
 ### Instalación
 ```bash
