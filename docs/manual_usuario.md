@@ -10,7 +10,7 @@ Su propósito es **detectar automáticamente errores de apilamiento** en proceso
 
 <img width="1620" height="1080" alt="image" src="https://github.com/user-attachments/assets/31898d0d-9ddd-438f-a6a5-2b51c48ab2db" />
 
-**Fuente:** AVSI / https://directorial-al-euchromatic.ngrok-free.dev/
+**Fuente:** AVSI / generado por ChatGPT
 
 ---
 
